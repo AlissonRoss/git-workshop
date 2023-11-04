@@ -1,0 +1,27 @@
+h1{
+    color: blueviolet;
+}
+.appBody{
+    height: 20vh;
+    width: 100vw;
+    background-color: darksalmon;
+}
+.bodyH2{
+    width: 50%;
+    background-color: darkgreen;
+}
+header{
+ background-color: palevioletred;
+}
+footer{
+    background-color: chocolate;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+/* Styles for screens smaller than 768px */
+@media (max-width: 768px) {
+	.appBody {
+		background-color: cadetblue;
+	}
+}
